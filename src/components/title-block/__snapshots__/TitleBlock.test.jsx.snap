@@ -2,7 +2,7 @@
 
 exports[`TitleBlock component Component Shapshot should match stored snapshot 1`] = `
 <div
-  className="title-block white undefined"
+  className="title-block white "
 >
   <div
     className="content"

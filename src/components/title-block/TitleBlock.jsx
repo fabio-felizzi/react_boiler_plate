@@ -27,6 +27,7 @@ TitleBlock.defaultProps = {
     subtitle: '',
     backgroundColor: 'white',
     children: null,
+    className: '',
 };
 
 TitleBlock.propTypes = {
@@ -34,7 +35,7 @@ TitleBlock.propTypes = {
     subtitle: PropTypes.string,
     backgroundColor: PropTypes.oneOf(['black', 'white']),
     children: PropTypes.element,
-    className: PropTypes.string.isRequired,
+    className: PropTypes.string,
 };
 
 export default TitleBlock;
