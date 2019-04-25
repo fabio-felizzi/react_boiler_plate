@@ -1,0 +1,26 @@
+{
+    "clearMocks": true,
+    "moduleFileExtensions": [
+        "js",
+        "jsx"
+    ],
+    "moduleDirectories": [
+        "node_modules",
+        "src"
+    ],
+    "moduleNameMapper": {
+        "\\.css$": "<rootDir>/../__mocks__/styleMock.js",
+        "\\.(svg|png|jpg|pdf)$": "<rootDir>/../__mocks__/fileMock.js"
+    },
+    "setupFiles": [
+        "<rootDir>/enzyme.config.js"
+    ],
+    "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+    ],
+    "roots": [
+        "../../"
+    ],
+    "testEnvironment": "jsdom",
+    "testURL": "http://localhost/"
+}

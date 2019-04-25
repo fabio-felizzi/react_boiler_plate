@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleBlock component Component Shapshot should match stored snapshot 1`] = `
+<div
+  className="title-block white undefined"
+>
+  <div
+    className="content"
+  >
+    <h1
+      className="title"
+    >
+      Component title
+    </h1>
+    <h2
+      className="subtitle"
+    >
+      Component subtitle
+    </h2>
+  </div>
+</div>
+`;

@@ -1,26 +1,32 @@
-# Blank Template for React builds
+# React/ES6 BoilerPlate
 
-Lightweight starter project for React, uses:
+Uses:
 
-- PostCSS with Sass
-- Yarn for package management
-- Webpack 3 as your task runner
+- Styled Components
+- Yarn
+- Webpack 4
+- Node 10
+- Eslint (with my own extra rules, easy to replace/reconfigure)
+- Jest/Enzyme for testing
+
 - Built-in BrowserSync
-- For production builds:
-  - CSS compression
-  - JavaScript compression
-  - Image compression
+- Pre commit and pre push hooks to locally lint and test your code respectively
+- Code splitting
+- Babel is already preconfigured for as much cross browser support as I could think of, reccomendations are welcome though!
+
 
 ## Installation
 
-To use this template, your computer needs:
-
-- [Yarn](https://yarnpkg.com/en/) (v1.3.2)
-
-Then open the folder in your command line, and install the needed dependencies:
+Open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectDirectory
+
 yarn install
 
-Finally, run `yarn start` to run Yarn. This will open up webpack-dev-server and load your project, Your finished site will be created in a folder called `dist` which is created when you run `yarn build`.
+`yarn start` - will start up your local environment
+`yarn build` - bundles your project ready for production
+`yarn test` - runs your tests
+`lint-js` - runs Eslint across the whole project
+
+```
+Project is served at `localhost:8080`
