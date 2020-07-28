@@ -23,19 +23,5 @@ module.exports = merge(baseConfig, {
       'Access-Control-Allow-Origin': 'http://localhost:8080',
     },
   },
-  resolve: {
-    alias: {
-      Pages: path.resolve(__dirname, 'src/pages/'),
-      Sections: path.resolve(__dirname, 'src/sections/'),
-      Components: path.resolve(__dirname, 'src/components/'),
-      StyledComponents: path.resolve(__dirname, 'src/styled-components/'),
-      Images: path.resolve(__dirname, 'src/images/'),
-      Downloads: path.resolve(__dirname, 'src/downloads/'),
-      Services: path.resolve(__dirname, 'src/services/'),
-      Enum: path.resolve(__dirname, 'src/enum/'),
-      Data: path.resolve(__dirname, 'src/data/'),
-      Utils: path.resolve(__dirname, 'src/utils/'),
-    },
-  },
   plugins: [WebpackHotModuleReplacementConfig, PurgeCSSConfig],
 });
