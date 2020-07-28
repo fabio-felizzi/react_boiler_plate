@@ -21,6 +21,5 @@
     "roots": [
         "../../"
     ],
-    "testEnvironment": "jsdom",
     "testURL": "http://localhost/"
 }
