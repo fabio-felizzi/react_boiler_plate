@@ -57,7 +57,7 @@
     "glob": "^7.1.2",
     "html-webpack-plugin": "4.3.0",
     "jest": "26.1.0",
-    "jsdom": "16.3.0",
+    "jsdom": "16.5.0",
     "nock": "13.0.3",
     "postcss-for": "^2.1.1",
     "postcss-import": "^12.0.0",
